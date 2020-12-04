@@ -18,44 +18,44 @@ public class Principal {
 		
 		LibroDigital libroDigital= new LibroDigital();
 		libroDigital.setId(1);
-		libroDigital.setAutor("Juan Marquez");
-		libroDigital.setEdicion("6ta edicion");
-		libroDigital.setTitulo("Patrones de diseño");
+		libroDigital.setAutor("Jorge Icaza");
+		libroDigital.setEdicion("1ta edicion");
+		libroDigital.setTitulo("Huasipungo");
 		libroDigital.setPrecio(25);
 
 		LibroImpreso libroImpreso= new LibroImpreso();
 		libroImpreso.setId(1);
-		libroImpreso.setAutor("Maria Sornoza");
+		libroImpreso.setAutor("Jose de la Cuadra");
 		libroImpreso.setEdicion("4ta edicion");
-		libroImpreso.setTitulo("Evolucion tecnologica");
+		libroImpreso.setTitulo("Los Sangurimas");
 		libroImpreso.setPrecio(29);
 		
 		LibroDigital libroDigital1= new LibroDigital();
 		libroDigital1.setId(2);
-		libroDigital1.setAutor("Marcia Nieto");
+		libroDigital1.setAutor("Medardo Angel Silva");
 		libroDigital1.setEdicion("2da edicion");
-		libroDigital1.setTitulo("Algebra");
+		libroDigital1.setTitulo("Maria Jesus");
 		libroDigital1.setPrecio(18);
 		
 		LibroDigital libroDigital2= new LibroDigital();
 		libroDigital2.setId(3);
-		libroDigital2.setAutor("Karla Loja");
+		libroDigital2.setAutor("Luis Alfredo Martinez");
 		libroDigital2.setEdicion("5ta edicion");
-		libroDigital2.setTitulo("Matematas");
+		libroDigital2.setTitulo("A la Costa");
 		libroDigital2.setPrecio(15);
 		
 		LibroImpreso libroImpreso1= new LibroImpreso();
 		libroImpreso1.setId(2);
-		libroImpreso1.setAutor("Marco Infante");
-		libroImpreso1.setEdicion("4ta edicion");
-		libroImpreso1.setTitulo("Fisica");
+		libroImpreso1.setAutor("Juan Montalvo");
+		libroImpreso1.setEdicion("1ta edicion");
+		libroImpreso1.setTitulo("Las Catalinarias");
 		libroImpreso1.setPrecio(20);
 		
 		LibroImpreso libroImpreso2 = new LibroImpreso();
 		libroImpreso2.setId(3);
-		libroImpreso2.setAutor("Jose Vidal");
-		libroImpreso2.setEdicion("3ra edicion");
-		libroImpreso2.setTitulo("Literatura");
+		libroImpreso2.setAutor("Eliecer Cardenas");
+		libroImpreso2.setEdicion("1ra edicion");
+		libroImpreso2.setTitulo("Polvo y Ceniza");
 		libroImpreso2.setPrecio(31);
 		
 		System.out.println(libroImpreso.toString());
